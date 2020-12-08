@@ -1,0 +1,30 @@
+#cont
+{
+	width: 90%;
+	background-color: #fff;
+	height: 150px;
+	margin:auto;
+	margin-top: 30px;
+}
+#details
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items:center;
+}
+#details > span
+{
+	padding-top:30px; 
+}
+p
+{
+	font-size:30px;
+}
+#showimg
+{	width:90%;
+	margin: auto;
+	margin-top: 30px;
+	min-height: 400px;
+}

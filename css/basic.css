@@ -1,0 +1,66 @@
+body
+{
+	width: 100%;
+	background-color: #ddd;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+.current
+{
+	border-bottom: 5px solid green;
+}
+.upper
+{
+	overflow: hidden;
+	width:100%;
+	height: 150px;
+	background-color:#fff;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:flex-start;
+	align-items: baseline;
+
+}
+.upper > div
+{
+	width:40%; 
+}
+.logo
+{
+	height:80px;
+	width:80px;
+	margin: 10px;
+	margin-left: 30px;
+	font-size:10px;
+	overflow: hidden;
+	border: 1px solid green;
+	color: green;
+	border-radius:70%;
+	text-align: center;
+
+}
+.logo h1
+{
+	padding-top:15px;
+	font-weight: bold;
+	text-align: center;
+}
+#nav1 ul
+{
+
+}
+#navi ul li
+{
+	list-style: none;
+	display:inline;
+	padding-left: 30px;
+}
+#leftshow
+{
+	text-align: center;
+}
